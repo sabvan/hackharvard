@@ -2,17 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
+        <h1>DREAMSCAPE</h1>
       </header>
+
+      <main>
+        <div id="photopick" className="photopick">
+
+        </div>
+
+        <div id = "eegScans" className = "eegScans"> 
+        
+        </div>
+
+        <div id = "textFromEeg" className = "textFromEeg">
+
+        </div>
+      </main>
     </div>
   );
 }

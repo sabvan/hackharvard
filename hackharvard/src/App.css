@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #DBE4EE;
 }
 
 .App-logo {
@@ -14,18 +15,39 @@
 }
 
 .App-header {
-  background-color: #fff2d5;
-  min-height: 100vh;
+  background-color: #DBE4EE;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.full {
+  height: 200vh;
+  background-color: #EAF0CE;
+}
+
+.photopick {
+  height: 200vh;
+  background-color: #304D6D;
+}
+
+.eegScans {
+  height: 200vh;
+  background-color: #A5668B;
+}
+
+.textFromEeg {
+  height: 200vh;
+  background-color: #EAF0CE;
 }
 
 @keyframes App-logo-spin {
